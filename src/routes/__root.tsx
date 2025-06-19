@@ -5,7 +5,7 @@ import {
 	Scripts,
 } from '@tanstack/react-router';
 import type { ReactNode } from 'react';
-import NotFound from '@/components/notFound';
+import NotFound from '@/components/NotFound';
 // @ts-expect-error - Vite's ?url import is not recognized by TypeScript
 import appCss from '../styles/app.css?url';
 
